@@ -19,7 +19,7 @@ Similar to Git reset soft, performing a Git reset with the `--mixed` option will
 
 
 ### staged changes
-![alt staged](./images/sc-mixed-staged.png)
+![alt staged](https://github.com/Usama050/Lab3/blob/main/Screenshot%20(5).png)
 
 ## reset hard
 > git reset --hard **commit**
