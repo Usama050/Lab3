@@ -31,8 +31,7 @@ Git reset hard should be used with extreme caution and only for local changes yo
 ### reset
 ![alt reset](https://github.com/Usama050/Lab3/blob/main/Screenshot%20(4).png)
 
-### staged changes
-![alt staged](./images/sc-hard-staged.png)
+
 
 ## Reflection on Benefits and Use Cases of Git Reset
 
