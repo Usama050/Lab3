@@ -1,39 +1,39 @@
 # Version Control
 
-In this lab, you will learn about version control systems and their importance in collaborative software development. You will specifically focus on Git, one of the most widely used version control systems. Follow the tasks below to complete the lab assignment.
+## Definition
 
-## Task 1: Understanding Version Control Systems
+Version control systems (VCS) are tools used to manage changes to files and documents over time. They enable multiple people to collaborate on a project, tracking modifications, and allowing for easy access to different versions of the files. VCS keeps a record of every change made to the project, allowing users to roll back to previous versions, compare differences between versions, and merge changes made by different contributors.
 
-**To achieve a grade of 6/10**, follow these steps:
+## Purpose of Version Control Systems
 
-1. Conduct research to understand the concept of version control systems and their significance in collaborative software development.
-2. Create a Markdown file named "VersionControl.md" in the lab3 folder and provide the following information:
-   - Definition of version control systems and their purpose
-   - Explanation of the benefits and advantages of using version control in a collaborative environment
-   - Overview of different types of version control systems (centralized, distributed, etc.)
-   - Comparison of popular version control systems (Git, Subversion, Mercurial, etc.)
-3. Use your own words to explain the concepts and provide examples to support your explanations.
+The primary purpose of version control systems is to facilitate collaboration and provide a systematic approach to managing code or other files. They offer the following benefits:
 
-## Task 2: Practice with Git Reset Command
+1. **Change tracking**: VCS keeps a complete history of all changes made to files, including who made the changes, when they were made, and what specific modifications were done. This information is invaluable for understanding the project's evolution and for troubleshooting issues.
 
-**To earn an additional 4 points**, follow these steps to practice using different ways to use the `git reset` command:
+2. **Collaboration**: VCS allows multiple people to work on the same project simultaneously. It enables contributors to merge their changes seamlessly, preventing conflicts and ensuring a smooth collaborative workflow.
 
-1. Create a new branch named "git-reset-practice" in your Git repository.
-2. Perform the following actions on the branch:
-   a. Make several commits with different changes to a file.
-   b. Use `git reset` with different options (soft, mixed, hard) to undo the commits and observe the changes.
-   c. Experiment with resetting to a specific commit using commit hashes or relative references (e.g., HEAD~2).
-   d. Take note of the differences and outcomes of each `git reset` variation.
-3. Document your practice in a Markdown file named "GitResetPractice.md" in the lab3 folder and include the following details:
-   - Steps you took to perform the Git reset operations.
-   - Description of the different `git reset` options used and their effects.
-   - Examples and outputs of the commands executed.
-   - Reflection on the benefits and use cases of the `git reset` command in version control workflows.
+3. **Versioning**: VCS provides the ability to create and manage different versions of files. This allows users to experiment with changes, branch off from the main codebase, and revert to previous versions if needed.
 
-### Guidelines
+4. **Backup and recovery**: VCS acts as a backup mechanism, as it stores a complete history of the project. In case of data loss or accidental file deletion, it is possible to restore a previous version of the project easily.
 
-- Use proper Markdown formatting and structure for the documentation files.
-- Organize the files within the lab folder using appropriate naming conventions.
-- Create a Pull Request to the main branch of the repository with your completed lab assignment.
+5. **Code review and quality control**: VCS allows for code review processes, where changes made by contributors can be reviewed and discussed before being merged into the main codebase. This helps maintain code quality and ensure that the project follows established standards.
 
-> Note: It is crucial to actively practice and experiment with the `git reset` command during this lab to gain hands-on experience and a better understanding of its functionalities in version control workflows.
+## Types of Version Control Systems
+
+There are different types of version control systems, including:
+
+1. **Centralized Version Control Systems (CVCS)**: In CVCS, there is a central server that stores the entire history and versions of the files. Contributors check out the latest version of the files from the server, make changes locally, and then commit those changes back to the server. Examples of CVCS include Subversion (SVN) and Perforce.
+
+2. **Distributed Version Control Systems (DVCS)**: DVCS provides each contributor with a complete copy of the project's repository, including the entire history. Contributors can make changes and commit them locally without needing constant access to a central server. Git, Mercurial, and Bazaar are popular examples of DVCS.
+
+## Comparison of Popular Version Control Systems
+
+Here is a brief comparison of three widely used version control systems:
+
+1. **Git**: Git is a distributed version control system known for its speed, flexibility, and powerful branching and merging capabilities. It has become the de facto standard for version control in open-source projects and is widely adopted in the software development industry.
+
+2. **Subversion (SVN)**: Subversion is a centralized version control system that focuses on simplicity and ease of use. It uses a client-server architecture and allows for collaborative development, but it lacks some of the advanced features provided by Git.
+
+3. **Mercurial**: Mercurial is a distributed version control system similar to Git. It aims to provide an intuitive and easy-to-use interface while maintaining a robust set of features. Mercurial has gained popularity for its simplicity and has been adopted by several projects.
+
+Each version control system has its strengths and is suitable for different use cases. The choice of VCS depends on factors such as project requirements, team preferences, and scalability needs.
