@@ -29,7 +29,7 @@ Unlike with the Git reset soft and mixed, Git reset hard carries some danger, as
 Git reset hard should be used with extreme caution and only for local changes you’re sure you want to eliminate. Performing a Git reset –hard when working on a shared branch with commits that can be accessed by other contributors can cause issues with your Git history.
 
 ### reset
-![alt reset](./images/sc-hard-reset.png)
+![alt reset](https://github.com/Usama050/Lab3/blob/main/Screenshot%20(4).png)
 
 ### staged changes
 ![alt staged](./images/sc-hard-staged.png)
