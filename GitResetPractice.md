@@ -10,7 +10,7 @@ The first of the three modes you can use with Git reset is --soft for the Git re
 ![alt commit](https://github.com/Usama050/Lab3/blob/main/Screenshot%20(1).png)
 
 ### reset
-![alt reset](./images/sc-soft-reset.png)
+![alt reset](https://github.com/Usama050/Lab3/blob/main/Screenshot%20(2).png)
 
 ## reset mixed
 > git reset --mixed **commit**
